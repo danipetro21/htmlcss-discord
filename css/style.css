@@ -224,23 +224,30 @@ footer {
 
 .footer-top{
     height:400px;
+
     /* flex */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+
+    gap: 110px;
 
 }
 .main-column{
     width: 200px;
     height: 200px;
-
-    
 }
 .main-column h2{
     color: #5865f2;
     font-size: 30px;
 }
+
+.social i{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+/* social */
+
 
 
 .menu-column{
@@ -262,13 +269,11 @@ footer {
 /* footer bottom */
 
 .footer-bottom{
-
+    margin: 0 auto;
+    width: 95%;
     /* flex */
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-}
+    ;
 
-.footer-bottom img{
-    align-self: flex-end;
 }
