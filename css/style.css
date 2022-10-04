@@ -14,6 +14,14 @@ body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
 /* regole header */
 
 header {
@@ -40,17 +48,13 @@ header {
 
 #pages ul {
     width: 500px;
-    list-style-type: none;
+    
     /* flex */
     display: flex;
     justify-content: space-around;
 
 }
 
-#pages a {
-    color: rgb(241, 236, 236);
-    text-decoration: none;
-}
 
 #pages a:hover {
     color: red;
@@ -215,5 +219,56 @@ footer {
 
     /* debug */
     min-height: 700px;
-    background-color: darkslategrey;
+    background-color: #22272b;
+}
+
+.footer-top{
+    height:400px;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+.main-column{
+    width: 200px;
+    height: 200px;
+
+    
+}
+.main-column h2{
+    color: #5865f2;
+    font-size: 30px;
+}
+
+
+.menu-column{
+    display: flex;
+  
+}
+.col{
+
+    width: 200px;
+    
+}
+.col li{
+    line-height: 50px;
+}
+.main-cat{
+    color: #5865f2;
+}
+
+/* footer bottom */
+
+.footer-bottom{
+
+    /* flex */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-bottom img{
+    align-self: flex-end;
 }
