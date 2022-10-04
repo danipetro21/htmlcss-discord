@@ -2,7 +2,7 @@
 
 
 /* regole gnerali pagina */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,13 +10,13 @@
 
 
 /* add font to body */
-  body{
+body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+}
 
 /* regole header */
 
-header{
+header {
     background-image: url(/img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,58 +24,60 @@ header{
     min-height: 600px;
     background-color: rgb(74, 76, 237);
 }
+
 /* navbar */
 
-.navbar{
+.navbar {
     height: 70px;
     /* flex */
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
-    
+
 }
 
 /* stile div con pagine nel navbar */
 
-#pages ul{
+#pages ul {
     width: 500px;
-    list-style-type:none;
+    list-style-type: none;
     /* flex */
     display: flex;
     justify-content: space-around;
 
 }
 
-#pages a{
+#pages a {
     color: rgb(241, 236, 236);
     text-decoration: none;
 }
 
-#pages a:hover{
+#pages a:hover {
     color: red;
 }
 
-#accedi{
+#accedi {
     color: rgb(2, 2, 2);
     text-decoration: none;
     background-color: white;
     padding: 8px;
     border-radius: 15px;
-  
+
 }
-#accedi:hover{
+
+#accedi:hover {
     background-color: blueviolet;
     color: white;
 }
 
 /* jumbotron */
-.jumbotron{
+.jumbotron {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.contenent-hero{
+.contenent-hero {
 
     height: 500px;
     width: 700px;
@@ -88,19 +90,21 @@ header{
     gap: 30px;
 }
 
-.contenent-hero h1{
+.contenent-hero h1 {
     color: white;
     font-size: 40px;
 }
-.contenent-hero p{
+
+.contenent-hero p {
     color: white;
     font-size: 17px;
     text-align: center;
     line-height: 30px;
 
 }
-.button-hero{
-    
+
+.button-hero {
+
     background-color: white;
     text-decoration: none;
     background-color: white;
@@ -111,36 +115,70 @@ header{
     margin: 10px;
 }
 
-.blk{
+.blk {
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.button-hero:hover{
-    color: blue ;
+
+.button-hero:hover {
+    color: blue;
 }
 
 /* main */
 
 /* stile delle section */
 
-.light{
+.light {
     background-color: aliceblue;
-    min-height: 500px;
+    min-height: 600px;
 }
 
-.dark{
-    background-color: rgb(222, 221, 221);
+.section-container {
+    height: 600px;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
-.larger{
+
+.big-column {
+    height: 450px;
+    width: 650px;
+
+
+}
+
+
+.small-column {
+
+    height: 450px;
+    width: 450px;
+ 
+    
+}
+.small-column h1{
+    font-size: 50px;
+}
+.small-column p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.dark {
+    background-color: rgb(240, 233, 233);
+}
+
+.larger {
     min-height: 900px;
 }
 
 
 /* footer */
-footer{
+footer {
 
     /* debug */
     min-height: 700px;
     background-color: darkslategrey;
 }
-
